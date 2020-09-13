@@ -1,0 +1,15 @@
+.bannerSectionImageWrapper img{
+    max-width: 100%;
+}
+.bannerSectionImageTag{
+    width: 100%;
+}
+/* ----Media Query------- */
+@media (max-width: 992px){
+    .imPravanImgBox{
+        display: none;
+    }
+    .imPranavImageTag{
+        max-width: 100%;
+    }
+  }

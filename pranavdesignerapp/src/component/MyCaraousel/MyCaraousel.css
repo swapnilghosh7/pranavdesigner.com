@@ -1,0 +1,83 @@
+.quote{
+    position: relative;
+    top: -80px;
+}
+.carouselContentWrap{
+    padding: 80px 0;
+}
+.carouselContent{
+    display: flex;
+}
+.carousel-indicators{
+    left: auto;
+    margin: 0;
+}
+.carousel-indicators li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    opacity: 1;
+    border: none;
+}
+.reviewUserNameWrap{
+    display: flex;
+    text-align: left;
+    float: left;
+    padding-left: 85px;
+    margin-top: 30px;
+}
+.userNameDesignationWrapper .userName{
+    font-size: 26px;
+    font-weight: 600;
+}
+.carousel-indicators .active {
+    background: #000;
+}
+.reviewText{
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+}
+.userProfileImage{
+    height: 65px;
+    width: 65px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 2px solid #0025a6;
+}
+.userProfileImage img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+@media(max-width:600px){
+    .reviewText {
+        line-height: 24px;
+        text-align: left;
+        font-size: 16px;
+    }
+    .quote {
+        position: relative;
+        top: -20px;
+        
+        display: inline-block;
+    }
+    .quote img{
+        width: 15px;
+        height: 40px;
+    }
+    .reviewUserNameWrap{
+        padding-left: 5px;
+    }
+    .userNameDesignationWrapper .userName{
+        font-size: 16px;
+    }
+    .userDesignation{
+        font-size:14px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+}
